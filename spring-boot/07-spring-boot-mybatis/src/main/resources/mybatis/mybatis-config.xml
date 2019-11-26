@@ -1,0 +1,35 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE configuration-->
+        <!--PUBLIC "-//mybatis.org//DTD Config 3.0//EN"-->
+        <!--"http://mybatis.org/dtd/mybatis-3-config.dtd">-->
+<!--<configuration>-->
+    <!--<properties resource="mybatis/mybatis.properties"/>-->
+
+    <!--<settings>-->
+        <!--<setting name="cacheEnabled" value="true"/>-->
+    <!--</settings>-->
+
+    <!--<typeAliases>-->
+        <!--<typeAlias alias="MY_DB_VENDOR" type="com.darian.springbootmybatis.mapping.MyVendorDatabaseIdProvider" />-->
+    <!--</typeAliases>-->
+
+    <!--<environments default="dev">-->
+        <!--<environment id="dev">-->
+            <!--<transactionManager type="JDBC"/>-->
+            <!--<dataSource type="POOLED">-->
+                <!--<property name="driver" value="${driver}"/>-->
+                <!--<property name="url" value="${url}"/>-->
+                <!--<property name="username" value="${username}"/>-->
+                <!--<property name="password" value="${password}"/>-->
+            <!--</dataSource>-->
+        <!--</environment>-->
+    <!--</environments>-->
+
+    <!--&lt;!&ndash; 自己定义自己的别名 &ndash;&gt;-->
+    <!--<databaseIdProvider type="DB_VENDOR">-->
+        <!--<property name="MySQL" value="mysql"/>-->
+    <!--</databaseIdProvider>-->
+    <!--<mappers>-->
+        <!--<mapper resource="mybatis/mappers/UserMapper.xml"/>-->
+    <!--</mappers>-->
+<!--</configuration>-->

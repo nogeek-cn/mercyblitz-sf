@@ -1,0 +1,40 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE generatorConfiguration-->
+        <!--PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"-->
+        <!--"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">-->
+
+<!--<generatorConfiguration>-->
+    <!--<classPathEntry location="/Program Files/IBM/SQLLIB/java/db2java.zip"/>-->
+
+    <!--<context id="TestTbles" targetRuntime="MyBatis3">-->
+        <!--<jdbcConnection driverClass="cmo.mysql.jdbc.Driver"-->
+                        <!--connectionURL="jdbc:mysql://localhost:3306/test"-->
+                        <!--userId="root"-->
+                        <!--password="root">-->
+        <!--</jdbcConnection>-->
+
+        <!--&lt;!&ndash; java 模型对象生成器 &ndash;&gt;-->
+        <!--<javaModelGenerator targetPackage="com.darian.springbootmybatis.entity2"-->
+                            <!--targetProject="${user.dir}/src/main/java"/>-->
+
+        <!--&lt;!&ndash; SQL Mapper XML 生成器 &ndash;&gt;-->
+        <!--<sqlMapGenerator targetPackage="mybatis.mappers"-->
+                         <!--targetProject="${user.dir}/src/main/resources"/>-->
+
+        <!--&lt;!&ndash; SQL Mapper Java 接口 &ndash;&gt;-->
+        <!--<javaClientGenerator type="XMLMAPPER" targetPackage="com.darian.springbootmybatis.mapping"-->
+                             <!--targetProject="${user.dir}/src/main/java">-->
+                <!--<property name="enableSubPackages" value="true"/>-->
+        <!--</javaClientGenerator>-->
+
+
+
+        <!--<table tableName="user">-->
+            <!--<generatedKey column="id" sqlStatement="mysql" identity="true"/>-->
+            <!--<columnOverride column="username" property="username"/>-->
+            <!--<columnOverride column="password" property="password"/>-->
+        <!--</table>-->
+
+
+    <!--</context>-->
+<!--</generatorConfiguration>-->
